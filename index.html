@@ -11,34 +11,42 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web<span class="header-logo">Studio</span></a
-        >
-        <ul class="header list">
-          <li><a href="./index.html" class="header-current link">Студия</a></li>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="nav-site link">
+          <a href="./index.html" class="logo link"
+            >Web<span class="header-logo">Studio</span></a
+          >
+          <ul class="nav-list list">
+            <li><a class="nav-item nav-item-studio" href="">Студия</a></li>
+            <li>
+              <a class="nav-item link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li>
+              <a class="nav-item link nav-item-contacts" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-header list">
           <li>
-            <a href="./portfolio.html" class="header link">Портфолио</a>
+            <a class="cotacts-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="" class="header-contacts link">Контакты</a></li>
+          <li>
+            <a class="contacts-phone link" href="tel:+380961111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="header-contacts-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-contacts-link" href="tel:+380961111111"
-            >+38 099 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="hero">

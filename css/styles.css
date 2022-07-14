@@ -24,6 +24,13 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* header */
+.header-container {
+    display: flex;
+
+}
+.link {
+    display: flex;
+}
 
 .header:hover {
     color: var(--accent-color);
@@ -44,7 +51,33 @@ font-family: 'Roboto', sans-serif;
 
 
 /* logo Website */
+.logo-link {
+    margin-right: 93px;
+    align-items: center;
+}
 
+.nav-list {
+    display: flex;
+    align-items:center;
+}
+.nav-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 50px;
+}
+.nav-item-contacts {
+    margin-right: 0 auto;
+}
+.contacts-header {
+    margin-left: auto;
+    display: flex;
+    aligh-items: center;
+}
+.contacts-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 50px;
+}
  .logo {
     font-family: Raleway, sans-serif;
     
@@ -324,8 +357,14 @@ text-decoration: none;
 .header-kontact:focus {
     color: #188ce8;
 }
-
-.potfolio-text{
+.portfolio-card {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    column-gap: 30px; 
+}
+.portfolio-text{
+    padding: 20px 24px;
     font-style: normal;
     color:var(--primary-text-color)
 }
@@ -339,7 +378,9 @@ text-decoration: none;
     display: none;
 }
 
-.text-portfolio1 {
+.portfolio-card
+
+.portfolio-title {
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.03em;
@@ -347,7 +388,7 @@ text-decoration: none;
 
 }
 
-.text-portfolio2 {
+.portfolio-title {
 font-size: 16px;
 line-height: calc(30/16);
 letter-spacing: 0.03em;
