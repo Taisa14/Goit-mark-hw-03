@@ -22,15 +22,50 @@ body {
 font-family: 'Roboto', sans-serif;
 
 }
-
-/* header */
-.header-container {
-    display: flex;
-
+--reset styles--
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 .link {
-    display: flex;
+    text-decoration: none;
+    color:currentcolor;
+ }
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ 
+
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    pading-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+
+    outline:2px solid red; 
+    outline-offset:-2px;
 }
+
+.header list {
+    display:flex ;
+}
+
+.header-conteiner {
+    display: flex ;
+}
+
+
+
+
 
 .header:hover {
     color: var(--accent-color);
@@ -45,39 +80,11 @@ font-family: 'Roboto', sans-serif;
     line-height: 1.14;
     letter-spacing: 0.02em;
     cursor:pointer;
-    
-
 }
 
 
 /* logo Website */
-.logo-link {
-    margin-right: 93px;
-    align-items: center;
-}
 
-.nav-list {
-    display: flex;
-    align-items:center;
-}
-.nav-item {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-right: 50px;
-}
-.nav-item-contacts {
-    margin-right: 0 auto;
-}
-.contacts-header {
-    margin-left: auto;
-    display: flex;
-    aligh-items: center;
-}
-.contacts-link {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-right: 50px;
-}
  .logo {
     font-family: Raleway, sans-serif;
     
@@ -109,7 +116,7 @@ font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #757575; 
-text-decoration: none;
+
 }
 .header-contacts-link:hover {
     color: #188ce8;
@@ -148,14 +155,7 @@ text-decoration: none;
    border: none;
 }
 
- .list {
-    list-style: none;
- }
  
- .link {
-    text-decoration: none;
-    
- }
 
 /* main */
 
@@ -184,7 +184,7 @@ font-weight: 700;
 font-size: 36px;
 line-height:calc(42/36);
 letter-spacing:0.03em;
-text-align: center;
+
 color: var(--title-text-color); 
 
 }
@@ -194,7 +194,7 @@ color: var(--title-text-color);
     font-size: 16px;
     line-height: calc(19/16);
     color: #212121;
-    text-align: center;
+  
 }
 .text-profession {
    
@@ -202,7 +202,7 @@ color: var(--title-text-color);
     line-height: calc(18/16);
     letter-spacing: 0.03em;
     color: #757575;
-    text-align: center;
+  
 }
  /* footer */
  
@@ -286,14 +286,7 @@ font-style: normal;
  .header-current.link {
     color: var(--accent-color);
  }
- .list {
-    list-style: none;
- }
  
- .link {
-    text-decoration: none;
-    
- }
 
 .header-portfolio {
     font-family: "Roboto",sans-serif;

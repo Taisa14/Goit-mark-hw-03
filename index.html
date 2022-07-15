@@ -14,17 +14,20 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="container header-container">
-        <nav class="nav-site link">
+    <header class="header">
+      <div class="conteiner header-conteiner">
+        <nav class="nav-link">
           <a href="./index.html" class="logo link"
             >Web<span class="header-logo">Studio</span></a
           >
-          <ul class="nav-list list">
+          <ul class="header list">
             <li><a class="nav-item nav-item-studio" href="">Студия</a></li>
             <li>
               <a class="nav-item link" href="./portfolio.html">Портфолио</a>
@@ -50,96 +53,106 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <div class="conteiner">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-button" type="button">Заказать услугу</button>
+        </div>
       </section>
       <section class="list">
-        <ul class="list">
-          <li>
-            <h2 class="title-work">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
-            <p class="text-work">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h2 class="title-work">ПУНКТУАЛЬНОСТЬ</h2>
-            <p class="text-work">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h2 class="title-work">ПЛАНИРОВАНИЕ</h2>
-            <p class="text-work">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h2 class="title-work">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h2>
-            <p class="text-work">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="conteiner">
+          <ul class="list">
+            <li>
+              <h2 class="title-work">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
+              <p class="text-work">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <h2 class="title-work">ПУНКТУАЛЬНОСТЬ</h2>
+              <p class="text-work">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h2 class="title-work">ПЛАНИРОВАНИЕ</h2>
+              <p class="text-work">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h2 class="title-work">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h2>
+              <p class="text-work">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2 class="title-about">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li><img src="./images/work/img.jpg" alt="код" /></li>
-          <li><img src="./images/work/img-2.jpg" alt="дизайн" /></li>
-          <li><img src="./images/work/img-3.jpg" alt="цвет" /></li>
-        </ul>
+      <section class="section-work">
+        <div class="conteiner">
+          <h2 class="title-about">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li><img src="./images/work/img.jpg" alt="код" /></li>
+            <li><img src="./images/work/img-2.jpg" alt="дизайн" /></li>
+            <li><img src="./images/work/img-3.jpg" alt="цвет" /></li>
+          </ul>
+        </div>
       </section>
-      <section class="">
-        <h2 class="title-about">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/team/img6.jpg" alt="foto" />
-            <h2 class="title-name">Игорь Демьяненко</h2>
-            <p class="text-profession">Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/team/img7.jpg" alt="foto" />
-            <h2 class="title-name">Ольга Репина</h2>
-            <p class="text-profession">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/team/img8.jpg" alt="foto" />
-            <h2 class="title-name">Николай Тарасов</h2>
-            <p class="text-profession">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/team/img9.jpg" alt="foto" />
-            <h2 class="title-name">Михаил Ермаков</h2>
-            <p class="text-profession">UI Designer</p>
-          </li>
-        </ul>
+      <section class="section-team">
+        <div class="conteiner">
+          <h2 class="title-about">Наша команда</h2>
+          <ul class="list">
+            <li>
+              <img src="./images/team/img6.jpg" alt="foto" />
+              <h2 class="title-name">Игорь Демьяненко</h2>
+              <p class="text-profession">Product Designer</p>
+            </li>
+            <li>
+              <img src="./images/team/img7.jpg" alt="foto" />
+              <h2 class="title-name">Ольга Репина</h2>
+              <p class="text-profession">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./images/team/img8.jpg" alt="foto" />
+              <h2 class="title-name">Николай Тарасов</h2>
+              <p class="text-profession">Marketing</p>
+            </li>
+            <li>
+              <img src="./images/team/img9.jpg" alt="foto" />
+              <h2 class="title-name">Михаил Ермаков</h2>
+              <p class="text-profession">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer link">
-      <a href="./index.html" class="logo link"
-        >Web<span class="footer-logo">Studio</span></a
-      >
-      <address class="footer-address">
-        <ul class="list">
-          <li>
-            <a class="footer-adress" href="">Киев,пр-т Леси Украинки,26</a>
-          </li>
-          <li>
-            <a class="footer-contact link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380991111111" class="footer-contact link"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="conteiner">
+        <a href="./index.html" class="logo link"
+          >Web<span class="footer-logo">Studio</span></a
+        >
+        <address class="footer-address">
+          <ul class="list">
+            <li>
+              <a class="footer-adress" href="">Киев,пр-т Леси Украинки,26</a>
+            </li>
+            <li>
+              <a class="footer-contact link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="footer-contact link"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
