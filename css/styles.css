@@ -32,6 +32,9 @@ h6,
 p {
     margin: 0;
 }
+img {
+    display: block;
+}
 .link {
     text-decoration: none;
     color:currentcolor;
@@ -47,21 +50,66 @@ p {
 .conteiner {
     width: 1200px;
     padding-left: 15px;
-    pading-right:15px;
+    pading-right: 15px;
     margin-left:auto;
     margin-right:auto;
 
-    outline:2px solid red; 
-    outline-offset:-2px;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+// Header //
+
+  .header {
+    background: solid #FFFFFF
+    
+}
+  .header-conteiner {
+    display: flex;
+    align-items: center;
+}  
+
+
+.logo {
+margin-right: 93px;
 }
 
-.header list {
-    display:flex ;
+.header-nav {
+    margin-right :auto;
 }
 
-.header-conteiner {
+.header-list {
     display: flex ;
+    gap: 50px;
 }
+
+.flex-nav{
+    display: flex;
+    align-items: center;
+    
+}
+.contacts-list {
+    display:flex;
+    margin-right: auto;
+}
+
+.header-email {
+    margin-right: 50px;
+}
+
+.header-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color:var(--title-text-color)
+    display: block;
+
+}
+
+
+
 
 
 
@@ -87,7 +135,6 @@ p {
 
  .logo {
     font-family: Raleway, sans-serif;
-    
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -98,10 +145,6 @@ p {
     color: var(--primery-black-color);
  }
 
- .header-link {
-    
-    color:var(--title-text-color)
- }
  .header-current.link {
     color: var(--accent-color);
  }
@@ -127,8 +170,6 @@ color: #757575;
 
 
 
- .hero { background-color: #2f303a
-}
 
 
 
@@ -136,17 +177,30 @@ color: #757575;
 
 /* hero */
 
+.hero {
+    padding: 200px 452px;
+    text-align: center;
+    padding: 200px 0px;
+    background-color: #2f303a
+
+}
+
 .hero-title {
-    background-color: var(--work-text-bg-color);
+    
     font-weight: 900;
     font-size: 44px;
     line-height:calc(60/44) ;
     letter-spacing: 0.06em;
+    text-align: center;
     color: var(--primery-white-color);
     text-transform: uppercase;
+    margin-bottom: 30px;
  }
 .hero-button {
-    
+    align-self: center;
+    box-shadow: 0px 4px 4px;
+    border-radius: 4px;
+    border-color: transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 2.1;
