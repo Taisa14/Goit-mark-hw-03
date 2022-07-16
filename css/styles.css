@@ -218,11 +218,23 @@ color: #757575;
 
 /* main */
 
-.work-list {
+.conteiner-work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+.work-list list {
     display: flex;
   
 }
-
+.image-list {
+    display: flex;
+    gap: 30px;
+    
+}
+.img {
+    display: block;
+    }
 .title-work {
 font-weight: 700;
 font-size: 14px;
@@ -246,6 +258,10 @@ color:var(--primary-text-color);
     display: flex;
     gap: 30px;
 }
+.image-item {
+    align-items: center;
+   
+}
 .title-about {
 
 
@@ -261,7 +277,7 @@ color: var(--title-text-color);
     margin-bottom: 50px;
 }
 
-.section-team {
+.team-list {
     background-color: 
     padding-top: 93px;
     padding-bottom: 93px;
@@ -362,20 +378,7 @@ font-style: normal;
     margin: 0 auto;
 
 }
-.portfolio-categories {
-    display: flex;
-    gap: 8px;
-    
-}
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-}
-.portfolio-item{
- flex-basis: calc ((100% - 30px * 2) / 3);
-}
+
  .logo link {
     font-family: Raleway, sans-serif;
     
@@ -467,11 +470,8 @@ text-decoration: none;
     gap: 30px;
     column-gap: 30px; 
 }
-.portfolio-text{
-    padding: 20px 24px;
-    font-style: normal;
-    color:var(--primary-text-color)
-}
+
+
 
 .portfolio-btn {
     background-color: #2196f3; 
@@ -482,19 +482,46 @@ text-decoration: none;
     display: none;
 }
 
+.portfolio-categories {
+    display: flex;
+    gap: 8px;
+    
+}
 
+
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+
+}
+.portfolio-item {
+ flex-basis: calc((100% - 30px *2) / 3);
+
+}
+
+ .work-portfolio {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: none; 
+    width: 100%
+ }
 
 .portfolio-title {
+    margin-bottom: 4x;
+
     font-weight: 700px;
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
     color:var(--title-text-color);
-    margin-bottom: 4 px;
+    
 
 }
 
-.portfolio-item {
+.portfolio-text {
 font-weight: 400;
 font-size: 16px;
 line-height: calc(30/16);
@@ -502,14 +529,7 @@ letter-spacing: 0.03em;
 color:var(--primary-text-color);
 }
 
-.portfolio-conteiner{
-    border: 1px solid #eeeeee;
-    border-tope: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 24px;
-    padding-left: 24px;
-}
+
 /* footer portfolio */
 .footer-logoportflio {
     color: #2196f3;
