@@ -211,12 +211,17 @@ color: #757575;
     margin-bottom: 30px;
  }
 .hero-button {
+    max-width: 250px;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 9px 31px;
+letter-spacing: 0.03em;
     align-self: center;
     font-family: "Roboto",sans-serif;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 2.1;
+    line-height: calc(30/16);
    background-color: #2196f3;
    color: #ffffff;
    border: none;
