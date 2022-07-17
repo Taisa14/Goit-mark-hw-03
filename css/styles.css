@@ -32,7 +32,7 @@ h6,
 p {
     margin: 0;
 }
-img {
+.img {
     display: block;
 }
 .link {
@@ -218,10 +218,11 @@ color: #757575;
 
 /* main */
 
+
 .conteiner-work {
     padding-top: 94px;
     padding-bottom: 94px;
-    
+   
 }
 .work-list list {
     display: flex;
@@ -230,7 +231,7 @@ color: #757575;
 .image-list {
     display: flex;
     gap: 30px;
-    
+   
 }
 .img {
     display: block;
@@ -371,6 +372,7 @@ font-style: normal;
   }
   
 /* portfolio page */
+
 .categories-buttons {
     display: flex;
     justify-content: center;
@@ -413,7 +415,7 @@ font-style: normal;
 
 
 
-.work-btn-item.current {
+.work-btn-item current {
     
 background-color: var(--accent-color);
 color: var(--primery-white-color);
@@ -488,17 +490,15 @@ text-decoration: none;
     
 }
 
-
-
 .portfolio-list {
-    display: flex;
+   display: flex;
     flex-wrap: wrap;
     gap: 30px;
-   
+   flex-basis: calc((100% - 60px) / 3);
 
 }
 .portfolio-item {
- flex-basis: calc((100% - 30px *2) / 3);
+ 
 
 }
 
