@@ -32,7 +32,8 @@ h6,
 p {
     margin: 0;
 }
-.img {
+
+img {
     display: block;
 }
 .link {
@@ -406,12 +407,8 @@ font-style: normal;
     text-decoration: none;
     
 }
-.footer-contact:hover {
-    color: #188ce8;
-}
-.footer-contact:focus {
-    color: #2196f3;
-}
+
+
 .footer-contact {
     font-size: 14px;
     line-height: calc(24/14);
@@ -420,20 +417,13 @@ font-style: normal;
    
 }
 
-
-.footer-telefon {
-    font-size: 14px;
-    line-height: calc(24/14);
-    letter-spacing: 0.06em;
-    color: rgba(255, 255, 255, 0.6)
+.footer-contact:hover,
+.footer-contact:focus {
+color: #188ce8;
+}
   
-  }
-  .footer-telefon:hover {
-    color: #188ce8;
-}
-.footer-telefon:focus {
-    color: #2196f3;
-}
+ 
+  
 /* portfolio page */
 
 
